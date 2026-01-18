@@ -1,0 +1,29 @@
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.deps.json
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.runtimeconfig.json
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.dll
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.pdb
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.AssemblyInfoInputs.cache
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.AssemblyInfo.cs
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.csproj.CoreCompileInputs.cache
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.sourcelink.json
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.dll
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/refint/ConsoleProjects.dll
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.pdb
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.genruntimeconfig.cache
+/home/anupam/Desktop/projects /prg assignment/ConsoleProjects/ConsoleProjects/obj/Debug/net9.0/ref/ConsoleProjects.dll
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.deps.json
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.runtimeconfig.json
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.dll
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/bin/Debug/net9.0/ConsoleProjects.pdb
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.AssemblyInfoInputs.cache
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.AssemblyInfo.cs
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.csproj.CoreCompileInputs.cache
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.dll
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/refint/ConsoleProjects.dll
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.pdb
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.genruntimeconfig.cache
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ref/ConsoleProjects.dll

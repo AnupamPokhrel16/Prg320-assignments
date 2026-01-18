@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjectUnitTest/ConsoleProjectUnitTest.csproj": {}
+  },
+  "projects": {
+    "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjectUnitTest/ConsoleProjectUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjectUnitTest/ConsoleProjectUnitTest.csproj",
+        "projectName": "ConsoleProjectUnitTest",
+        "projectPath": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjectUnitTest/ConsoleProjectUnitTest.csproj",
+        "packagesPath": "/home/anupam/.nuget/packages/",
+        "outputPath": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjectUnitTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anupam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/ConsoleProjects.csproj": {
+                "projectPath": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/ConsoleProjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/ConsoleProjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/ConsoleProjects.csproj",
+        "projectName": "ConsoleProjects",
+        "projectPath": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/ConsoleProjects.csproj",
+        "packagesPath": "/home/anupam/.nuget/packages/",
+        "outputPath": "/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anupam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
