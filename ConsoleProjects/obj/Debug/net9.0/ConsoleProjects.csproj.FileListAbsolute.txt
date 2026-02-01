@@ -27,3 +27,4 @@
 /home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.pdb
 /home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.genruntimeconfig.cache
 /home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ref/ConsoleProjects.dll
+/home/anupam/Desktop/ConsoleProjects-AP/ConsoleProjects/obj/Debug/net9.0/ConsoleProjects.sourcelink.json
