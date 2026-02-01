@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/anupam/Desktop/projects /prg assignment/week_3/Week3Library.csproj",
+      "projectUniqueName": "/home/anupam/Desktop/ConsoleProjects-AP/week_3/Week3Library.csproj",
       "projectName": "Week3Library",
-      "projectPath": "/home/anupam/Desktop/projects /prg assignment/week_3/Week3Library.csproj",
+      "projectPath": "/home/anupam/Desktop/ConsoleProjects-AP/week_3/Week3Library.csproj",
       "packagesPath": "/home/anupam/.nuget/packages/",
-      "outputPath": "/home/anupam/Desktop/projects /prg assignment/week_3/obj/",
+      "outputPath": "/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/anupam/.nuget/NuGet/NuGet.Config"

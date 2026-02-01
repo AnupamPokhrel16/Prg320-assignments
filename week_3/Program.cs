@@ -5,10 +5,9 @@ using Week3Library.Service;
 
 namespace Week3Library
 {
-    /// <summary>
     /// Main program demonstrating the Library Management System.
     /// Shows try-catch-finally exception handling and menu-driven user interface.
-    /// </summary>
+
     internal class Program
     {
         private static void Main()
@@ -25,8 +24,14 @@ namespace Week3Library
                 Console.WriteLine("==============================");
                 Console.WriteLine("1. Add Book");
                 Console.WriteLine("2. Add Magazine");
-                Console.WriteLine("3. Display All Items");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("3. Add Newspaper");
+                Console.WriteLine("4. Display All Items");
+                Console.WriteLine("5. Remove Item");
+                Console.WriteLine("6. Search by Title");
+                Console.WriteLine("7. Search by Author");
+                Console.WriteLine("8. Sort by Title");
+                Console.WriteLine("9. Sort by Year");
+                Console.WriteLine("10. Exit");
                 Console.Write("Choose an option: ");
                 Console.ResetColor();
 
@@ -40,22 +45,56 @@ namespace Week3Library
                         case "1":
                             var book = CreateBookFromInput();
                             libraryService.AddItem(book);
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Book added successfully.");
+                            Console.ResetColor();
                             break;
                         case "2":
                             var magazine = CreateMagazineFromInput();
                             libraryService.AddItem(magazine);
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Magazine added successfully.");
+                            Console.ResetColor();
                             break;
                         case "3":
-                            libraryService.DisplayAllItems();
+                            var newspaper = CreateNewspaperFromInput();
+                            libraryService.AddItem(newspaper);
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine("Newspaper added successfully.");
+                            Console.ResetColor();
                             break;
                         case "4":
+                            libraryService.DisplayAllItems();
+                            break;
+                        case "5":
+                            Console.Write("Enter the title of the item to remove: ");
+                            string titleToRemove = Console.ReadLine() ?? string.Empty;
+                            libraryService.RemoveItem(titleToRemove);
+                            break;
+                        case "6":
+                            Console.Write("Enter the title to search for: ");
+                            string titleToSearch = Console.ReadLine() ?? string.Empty;
+                            libraryService.SearchByTitle(titleToSearch);
+                            break;
+                        case "7":
+                            Console.Write("Enter the author to search for: ");
+                            string authorToSearch = Console.ReadLine() ?? string.Empty;
+                            libraryService.SearchByAuthor(authorToSearch);
+                            break;
+                        case "8":
+                            libraryService.SortByTitle();
+                            break;
+                        case "9":
+                            libraryService.SortByYear();
+                            break;
+                        case "10":
                             exit = true;
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.WriteLine("Exiting system. Goodbye!");
+                            Console.ResetColor();
                             break;
                         default:
-                            Console.WriteLine("Invalid choice. Please select 1-4.");
+                            Console.WriteLine("Invalid choice. Please select 1-10.");
                             break;
                     }
                 }
@@ -65,7 +104,7 @@ namespace Week3Library
                     Console.WriteLine($"Input Error: {ex.Message}");
                     Console.ResetColor();
                 }
-                catch (DuplicateEntryException ex)
+                catch (DuplicateItemException ex)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Duplicate Error: {ex.Message}");
@@ -113,6 +152,22 @@ namespace Week3Library
             int issueNumber = ReadInt("Enter Issue Number: ", mustBePositive: true);
 
             return new Magazine(title, publisher, year, issueNumber);
+        }
+
+        private static Newspaper CreateNewspaperFromInput()
+        {
+            Console.Write("Enter Title: ");
+            string title = Console.ReadLine() ?? string.Empty;
+
+            Console.Write("Enter Publisher: ");
+            string publisher = Console.ReadLine() ?? string.Empty;
+
+            int year = ReadPublicationYear("Enter Publication Year (YYYY): ");
+
+            Console.Write("Enter Editor: ");
+            string editor = Console.ReadLine() ?? string.Empty;
+
+            return new Newspaper(title, publisher, year, editor);
         }
 
         private static int ReadPublicationYear(string prompt)

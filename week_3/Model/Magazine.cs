@@ -1,13 +1,15 @@
 using System;
 using Week3Library.CustomException;
+using Week3Library.Interface;
+using Week3Library.Utilities;
 
 namespace Week3Library.Model
 {
     /// <summary>
-    /// Derived class demonstrating INHERITANCE from Item.
-    /// Adds Magazine-specific IssueNumber field and overrides DisplayItems() for POLYMORPHISM.
+    /// Derived class demonstrating INHERITANCE from LibraryItemBase.
+    /// Adds Magazine-specific IssueNumber field and overrides DisplayInfo() for POLYMORPHISM.
     /// </summary>
-    public class Magazine : Item
+    public class Magazine : LibraryItemBase
     {
         // ENCAPSULATION: Private issue number field with public property validation.
         private int _issueNumber;
@@ -36,10 +38,10 @@ namespace Week3Library.Model
             return value;
         }
 
-        // POLYMORPHISM: Overrides base DisplayItems() with Magazine-specific format including IssueNumber.
-        public override void DisplayItems()
+        // POLYMORPHISM: Overrides base DisplayInfo() with Magazine-specific format including IssueNumber.
+        public override void DisplayInfo()
         {
-            Console.WriteLine($"[Magazine] Title: {Title}, Publisher: {Publisher}, Year: {PublicationYear}, Issue: {IssueNumber}");
+            Helper.TypeWrite($"[Magazine] Title: {Title}, Publisher: {Publisher}, Year: {PublicationYear}, Issue: {IssueNumber}");
         }
     }
 }

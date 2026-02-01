@@ -1,14 +1,15 @@
-/home/anupam/Desktop/projects /prg assignment/week_3/bin/Debug/net9.0/Week3Library
-/home/anupam/Desktop/projects /prg assignment/week_3/bin/Debug/net9.0/Week3Library.deps.json
-/home/anupam/Desktop/projects /prg assignment/week_3/bin/Debug/net9.0/Week3Library.runtimeconfig.json
-/home/anupam/Desktop/projects /prg assignment/week_3/bin/Debug/net9.0/Week3Library.dll
-/home/anupam/Desktop/projects /prg assignment/week_3/bin/Debug/net9.0/Week3Library.pdb
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.GeneratedMSBuildEditorConfig.editorconfig
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.AssemblyInfoInputs.cache
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.AssemblyInfo.cs
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.csproj.CoreCompileInputs.cache
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.dll
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/refint/Week3Library.dll
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.pdb
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/Week3Library.genruntimeconfig.cache
-/home/anupam/Desktop/projects /prg assignment/week_3/obj/Debug/net9.0/ref/Week3Library.dll
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/bin/Debug/net9.0/Week3Library
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/bin/Debug/net9.0/Week3Library.deps.json
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/bin/Debug/net9.0/Week3Library.runtimeconfig.json
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/bin/Debug/net9.0/Week3Library.dll
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/bin/Debug/net9.0/Week3Library.pdb
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.GeneratedMSBuildEditorConfig.editorconfig
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.AssemblyInfoInputs.cache
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.AssemblyInfo.cs
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.csproj.CoreCompileInputs.cache
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.sourcelink.json
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.dll
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/refint/Week3Library.dll
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.pdb
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/Week3Library.genruntimeconfig.cache
+/home/anupam/Desktop/ConsoleProjects-AP/week_3/obj/Debug/net9.0/ref/Week3Library.dll

@@ -1,13 +1,15 @@
 using System;
 using Week3Library.CustomException;
+using Week3Library.Interface;
+using Week3Library.Utilities;
 
 namespace Week3Library.Model
 {
     /// <summary>
-    /// Derived class demonstrating INHERITANCE from Item.
-    /// Adds Book-specific Author field and overrides DisplayItems() for POLYMORPHISM.
+    /// Derived class demonstrating INHERITANCE from LibraryItemBase.
+    /// Adds Book-specific Author field and overrides DisplayInfo() for POLYMORPHISM.
     /// </summary>
-    public class Book : Item
+    public class Book : LibraryItemBase
     {
         // ENCAPSULATION: Private author field with public property validation.
         private string _author = string.Empty;
@@ -46,10 +48,10 @@ namespace Week3Library.Model
             return value;
         }
 
-        // POLYMORPHISM: Overrides base DisplayItems() with Book-specific format including Author.
-        public override void DisplayItems()
+        // POLYMORPHISM: Overrides base DisplayInfo() with Book-specific format including Author.
+        public override void DisplayInfo()
         {
-            Console.WriteLine($"[Book] Title: {Title}, Author: {Author}, Publisher: {Publisher}, Year: {PublicationYear}");
+            Helper.TypeWrite($"[Book] Title: {Title}, Author: {Author}, Publisher: {Publisher}, Year: {PublicationYear}");
         }
     }
 }
